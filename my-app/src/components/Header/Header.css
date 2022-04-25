@@ -1,0 +1,25 @@
+header {
+	width: 100%;
+	background: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+header ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 10px 20px;
+	display: flex;
+}
+header ul li a:hover {
+	transition: 0.3s;
+	background: gray;
+	color: #333;
+	text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+.dashboard {
+	display: flex;
+	width: 100%;
+}
+.dashboard a {
+	width: 50%;
+	display: flex;
+	min-height: 50vh;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+	border: 10px solid #33333308;
+	transition: 0.3s;
+	color: #333;
+	text-decoration: unset;
+}
+.dashboard a:hover {
+	transition: 0.3s;
+	border: 10px solid #333;
+	text-decoration: underline;
+}
